@@ -1,0 +1,51 @@
+.mainbox{
+    background-color: coral;
+    width: 800px;
+    margin: 0 auto;
+}
+.menu{
+  background-color: lightblue;
+}
+
+.leftside {
+    background-color: lightgray;
+    width: 100px;
+    float: left;
+}
+
+.main{
+    background-color: orange;
+    width: 600px;
+    float: left;
+}
+.rightside{
+    background-color: lightgray;
+    width: 100px;
+    float: left;
+}
+.footer{
+    background-color: dimgrey;
+}
+.menu{
+    height: 34px;
+    text-align: center;
+}
+.menu>ul>li {
+    display: inline;
+    padding: 10px 10px 10px 10px;
+    background-color: darkgray;
+    position: relative;
+    top: 9px;
+    font-family: Tahoma, Serif;
+    font-size: 15px;
+}
+.menu>li>a{
+    text-decoration: red;
+    color: #ffbea0;
+}
+
+.video {
+    width: 500px;
+    margin: 0 auto;
+
+}
